@@ -4,9 +4,9 @@ public class Main {
         System.out.println("Hello World!");
         String greeting = "Hej Verden!";
         String name = "Christian";
-        String besked = "Og jeg synes programmering er for sindsygt fedt!";
+        String besked = "og jeg synes programmering er for sindsygt fedt!";
         int age = 32;
-        System.out.printf("%s, jeg hedder %s, jeg er %d år gammel.%n. %s", greeting, name, age, besked);
+        System.out.printf("%s, jeg hedder %s, jeg er %d år gammel.%n%s", greeting, name, age, besked);
 
     }
 }
