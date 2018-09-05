@@ -8,5 +8,6 @@ public class Main {
         int age = 32;
         System.out.printf("%s, jeg hedder %s, jeg er %d år gammel.%n%s", greeting, name, age, besked);
 
+
     }
 }
