@@ -9,5 +9,4 @@ public class Main {
         System.out.printf("%s, jeg hedder %s, jeg er %d år gammel.%n. %s", greeting, name, age, besked);
 
     }
-
 }
