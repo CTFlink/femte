@@ -1,3 +1,5 @@
+import java.awt.Rectangle;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -8,5 +10,9 @@ public class Main {
         int age = 32;
 
         System.out.printf("%s, jeg hedder %s, jeg er %d år gammel.%n%s", greeting, name, age, besked);
+
+        Rectangle firkant = new Rectangle(5, 10, 20, 30);
+        System.out.println(firkant);
+
     }
 }
